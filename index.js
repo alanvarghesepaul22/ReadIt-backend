@@ -15,7 +15,7 @@ app.use(express.json());
 // middleware to handle cors policy
 app.use(
   cors({
-    origin: "https://readit-frontend.vercel.app/", //this url is only allowed to access the routes
+    origin: "https://readit-now.vercel.app", //this url is only allowed to access the routes
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"],
   })
